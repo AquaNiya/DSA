@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 // Import Scanner class to take user input
 import java.util.Scanner;
 
