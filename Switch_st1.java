@@ -1,3 +1,4 @@
+//Given no. (1-7), print the corresponding day of the week
 import java.util.Scanner;
 
 public class Switch_st1 {
