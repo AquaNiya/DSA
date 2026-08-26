@@ -1,4 +1,4 @@
-class Solution {
+public class Pattern9 {
     // Function to print the erect (upright) pyramid
     public void erectPyramid(int N) {
         for (int i = 0; i < N; i++) {
@@ -36,12 +36,9 @@ class Solution {
             System.out.println();
         }
     }
-}
-
-public class Pattern9 {
     public static void main(String[] args) {
         int N = 5;
-        Solution obj = new Solution();
+        Pattern9 obj = new Pattern9();
         obj.erectPyramid(N);
         obj.invertedPyramid(N);
     }

@@ -1,4 +1,4 @@
-class Solution {
+public class Pattern3{
     // Function to print the number pattern
     public void pattern3(int N) {
         // Outer loop for rows
@@ -12,12 +12,9 @@ class Solution {
             System.out.println();
         }
     }
-}
-
-public class Pattern3{
     public static void main(String[] args) {
         // Create object of Solution class
-        Solution sol = new Solution();
+        Pattern3 sol = new Pattern3();
 
         // Define size of pattern
         int N = 5;

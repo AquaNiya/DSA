@@ -1,4 +1,4 @@
-class Solution {
+public class Pattern1{
     // Function to print a square pattern of stars
     public void pattern1(int N) {
         // Outer loop to handle rows
@@ -12,16 +12,12 @@ class Solution {
             System.out.println();
         }
     }
-}    
-public class Pattern1{
-  public static void main(String[] args) {
-    Solution sol = new Solution();
-    int N = 5; // Set the size of the square (5x5)
-    sol.pattern1(N); // Call the function to print the pattern
-  }
+    public static void main(String[] args) {
+        Pattern1 sol = new Pattern1();
+        int N = 5; // Set the size of the square (5x5)
+        sol.pattern1(N); // Call the function to print the pattern
+    }
 }
-    
-
 //Time Complexity: O(N²), since we print N stars for each of the N rows.
 
 //Space Complexity: O(1), no additional space is used apart from loop variables.
