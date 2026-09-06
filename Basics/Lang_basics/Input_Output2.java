@@ -4,16 +4,15 @@
 import java.util.Scanner;
 
 public class Input_Output2 {
-    public static void printNumber(Scanner sc) //this method can be called from main() and from other classes if needed.
-    {
+    public static void printNumber(Scanner sc) {
         System.out.print("Enter Input: ");
         int a = sc.nextInt();
         System.out.println("Output: " + a);
     }
-    public static void main(String[] args) //static means the method belongs to class itself 
-    {
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        printNumber(sc); // can be called directly without creating an object of class
+        printNumber(sc);
         sc.close();
     }
 }
