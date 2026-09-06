@@ -2,13 +2,13 @@
 //base case kya hoga (hint: multiplication mein 0 nahi, 1 se start hoga base case), aur recursive formula lgega.
 public class Day2Problem2 {
   static int productOfN(int n){
-    if(n==1){
+    if(n<=1){
       return 1;
     }
     return n * productOfN(n-1);
   }
   public static void main(String[] args){
-    int result = productOfN(5);
+    int result = productOfN(0);
     System.out.println(result);
   }
 }
