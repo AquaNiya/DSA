@@ -1,4 +1,3 @@
-package Patterns;
 public class Pattern1{
     // Function to print a square pattern of stars
     public void pattern1(int N) {
