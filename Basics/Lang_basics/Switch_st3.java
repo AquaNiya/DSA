@@ -1,4 +1,3 @@
-
 public class Switch_st3 {
     public static void main(String[] args) {
         // Define a char variable representing a grade

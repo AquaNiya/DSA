@@ -1,4 +1,4 @@
-// Import Scanner class to take user input
+//Import Scanner class to take user input
 import java.util.Scanner;
 
 public class Cond_st3 {

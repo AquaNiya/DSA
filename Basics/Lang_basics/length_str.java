@@ -1,6 +1,5 @@
 //Finding the length of a String using built in fn
 
-// Class containing method to find string length
 class Solution {
   //func. to return length of a string
   public int findLength(String s){

@@ -1,5 +1,5 @@
 //Problem1: Ek fn likho sumOfN(int n) jo 1 se n tak ke sabhi numbers ka sum recursively return kare (loop use nahi karna).
-public class day2_pb1{
+public class Day2Problem1{
   static int SumOfN(int n){
     if(n==0){
       return 0;
